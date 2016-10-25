@@ -1,0 +1,469 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+    
+/*SELECTORES*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+audio{
+	position: fixed;
+	z-index: 2;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #666;
+}
+
+
+header{
+	margin-top: 12px;
+	width: 1000px;
+	height: 168px;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: 0px 0px 10px;
+
+}
+
+
+nav{
+	display: block;
+	width: 1000px;
+	height: 65px;
+	background: #003f5e;
+	border-radius: 0px 0px 10px 10px;	
+	color: #006680;
+	box-shadow: black 0px 0px 10px;
+	
+}
+
+
+nav ul{
+	
+	margin: auto;
+	padding-top: 4px;
+	list-style: none;
+}
+
+nav li{
+	float: left;
+	list-style-type: none;
+	padding: 13px;
+	background: #003f5e;
+	margin: 3px;
+	border-radius: 7px;
+	box-shadow: inset 0px 0px 10px white;
+	margin-top: 7px;
+}
+
+nav li ul{
+	display:none;
+    width: 120px;
+	position: absolute;
+	float: left;
+	list-style-type: none;
+	padding: 13px;
+	background: #003f5e;
+	border-radius: 7px;
+	box-shadow: inset 0px 0px 10px white;
+	margin-top: 13px;
+}
+
+
+
+section{
+	display: block;
+	width: 713px;
+	background: white;
+	padding: 20px;
+	height: 800px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px;
+}
+
+section strong{	
+	color:#003f5e;
+
+}
+
+.foto {
+	border-radius: 30px / 30px;
+}
+
+article{
+	height: 740px;
+	overflow-y: scroll; 
+
+}
+article p {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+aside{
+	display: block;
+	width: 280px;
+	background: white;
+	height: 800px;
+	float: left;
+	margin-left: 7px;
+	margin-top: 7px;
+	border-radius: 0px 10px 0px 0px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px;
+}
+
+footer{
+	display: block;
+	width: 1000px;
+	height: auto;
+	padding: 18px 70px;
+	background: #003f5e;
+	float: left;
+	margin-top: 7px;
+	border-radius: 0px 0px 10px 10px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	text-align: left;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px;
+}
+
+div {
+	text-align: center;
+	font-size: 18px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	color: #333;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+
+form {
+	font-size: 12px;
+}
+
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #003f5e;
+	margin-left: 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1C2123;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	text-align: center;
+	border-top: #006680;
+}
+
+h3{
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #003f5e;
+	font-size: 15px;
+	text-align: left;
+}
+
+/*IDENTIFICADORES*/
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;	
+	position: relative;
+	color: #000;
+}
+
+#apDiv1 {
+	position: absolute;
+	width: 1000px;
+	height: 168px;
+	z-index: 1;
+	border-radius: 10px 10px 0px 0px;	
+}
+
+#apDiv2 {
+	position: absolute;
+	width: 518px;
+	height: 21px;
+	z-index: 1;
+	left: -2px;
+	top: 126px;
+	background-color: #FFFFFF;
+	border-radius: 20px 20px 20px 20px;
+}
+
+#apDiv3 {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#apDiv3 form {
+	font-size: 14px;
+	
+}
+
+#apDiv4 {
+	float: left;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+#apDiv32{
+	float: left;
+}
+#apDiv33{
+	float: left;
+	margin-left: 20px;
+}
+
+
+#apDiv5 {		
+	padding: 5px;
+	width: 280px;
+	height: 31px;	
+	z-index: 1;	
+	background-color: #003f5e;
+	border-radius: 0px 10px 0px 0px;
+	text-align: center;
+	color: #FFFFFF;	
+	font-size: 18px;
+	font-weight: normal;
+	clip: rect(auto,auto,auto,auto);
+	box-sizing: border-box;	
+}
+
+#apDiv7 {	
+	padding: 5px;
+	margin: 10px auto; 
+	width: 260px;
+	background-color: #003f5e;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+#apDiv15 {	
+	padding: 5px;
+	margin: 10px auto; 
+	width: 260px;		
+	background-color: #003f5e;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+#apDiv31{
+	width: 280px;
+	padding: 10px;
+	height: auto;
+	box-sizing: border-box;
+}
+
+#apDiv13 {	
+	float: left;
+	width: 225px;
+	height: 41px;	
+}
+
+#apDiv30 {
+	float: left;
+	width: 635px;	
+}
+
+
+#apDiv30 p {
+	padding: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;	
+	color: #fff;	
+}
+
+#apDiv9 {
+	position: absolute;
+	width: 33px;
+	height: 35px;
+	z-index: 1;
+	left: 206px;
+	top: -223px;
+}
+
+#apDiv10 {
+	position: absolute;
+	width: 713px;
+	height: 39px;
+	z-index: 2;
+	left: -1px;
+	top: 206px;
+}
+
+#apDiv14 {
+	position: absolute;
+	width: 98px;
+	height: 68px;
+	z-index: 3;
+	left: 546px;
+	top: 22px;
+	border-radius: 0px 0px 0px 0px;
+}
+
+#apDiv17 {
+	position: absolute;
+	width: 260px;
+	height: 78px;
+	z-index: 6;
+	left: 730px;
+	top: 885px;
+}
+
+#apDiv20 {
+	position: absolute;
+	width: 39px;
+	height: 18px;
+	z-index: 9;
+	left: 523px;
+	top: 184px;
+}
+
+#apDiv21 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 10;
+	left: 272px;
+	top: 745px;
+}
+
+#apDiv22 {	
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	z-index: 10;
+	left: 320px;
+	top: 751px;
+}
+
+#apDiv23 {
+	position: absolute;
+	width: 669px;
+	height: 51px;
+	z-index: 10;
+	left: 308px;
+	top: 975px;
+}
+
+#apDiv24 {
+	position: absolute;
+	width: 531px;
+	height: 21px;
+	z-index: 1;
+	left: 220px;
+	top: 132px;
+	color: #006680;
+	border-top-color: #006680;
+}
+#cuentavisitas{
+	float: left;
+	color: #FFFFFF;
+	margin-top: 8px;
+	margin-left: 30px;
+}
+
+
+/*CLASES*/
+
+nav > .menu {	
+	margin-left: 40px;
+}
+
+/*
+.ancho_menu_home{
+	width: 900px;
+}
+.ancho_menu_paginas{
+	width: 970px;
+}
+
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 80px;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.video-responsive iframe,.video-responsive object,.video-responsive embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.subtitle{
+    font-size: 34px;
+    color: #f27507;
+    padding-bottom:15px;
+    border-bottom: solid 2px #ccc;
+}
+*/
+
+
+/*PSEUDO CLASES*/
+li:hover> ul {
+  display:block;
+}
+
+
+.menu li:hover {
+	background: #ff8000;
+}
+
+.menu li a:link{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu li a:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.menu li a:active{
+	color: #003F5E;
+	text-decoration: none;
+}
+
+.menu li:hover ul {
+        display:block;
+        position: absolute;
+        padding: 0;
+        margin:-16px;
+        margin-top:10px;
+        width: 10px;
+        float: none;
+                }
+.menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:130px;
+        }
